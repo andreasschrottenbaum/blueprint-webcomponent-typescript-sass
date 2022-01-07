@@ -1,4 +1,5 @@
 import styles from '@/assets/main.styles.scss'
+import Main from './main'
 
 class MyComponent extends HTMLElement {
   private templateEl: HTMLTemplateElement
@@ -8,7 +9,7 @@ class MyComponent extends HTMLElement {
     super()
 
     this.templateEl = document.createElement('template')
-    this.templateEl.innerHTML = /*html*/ `<h1>hey!</h1>`
+    this.templateEl.innerHTML = /*html*/ `<div id="wrapper"></div>`
     this.shadow = this.attachShadow({ mode: 'open' })
 
     const styleEl = document.createElement('style')
@@ -16,6 +17,8 @@ class MyComponent extends HTMLElement {
 
     this.shadow.appendChild(styleEl)
     this.shadow.appendChild(this.templateEl.content.cloneNode(true))
+
+    new Main(this)
   }
 }
 
