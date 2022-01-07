@@ -13,16 +13,9 @@ class MyComponent extends HTMLElement {
 
     const styleEl = document.createElement('style')
     styleEl.textContent = styles
+
     this.shadow.appendChild(styleEl)
     this.shadow.appendChild(this.templateEl.content.cloneNode(true))
-
-    if (this.hasAttribute('css-file')) {
-      const customCssFile = this.getAttribute('css-file')
-      const customCssEl = document.createElement('style')
-
-      customCssEl.textContent = `@import "${customCssFile}"`
-      this.shadow.appendChild(customCssEl)
-    }
   }
 }
 
