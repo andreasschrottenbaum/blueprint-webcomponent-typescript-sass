@@ -1,3 +1,5 @@
+[__TOC__]
+
 # A lean setup for a WebComponent
 
 ### Used Technoligies:
@@ -6,7 +8,7 @@
 - [x] SASS/SCSS
 - [x] webpack
 
-## Install
+## Installation
 
 ```shell
 npm i
