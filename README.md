@@ -1,6 +1,6 @@
 # A lean setup for a WebComponent
 
-### Prerequirements:
+### Requirements:
 
 - [ ] [Node.js](https://nodejs.org)
 
