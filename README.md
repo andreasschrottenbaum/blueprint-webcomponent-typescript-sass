@@ -6,6 +6,12 @@
 - [x] SASS/SCSS
 - [x] webpack
 
+## Install
+
+```shell
+npm i
+```
+
 ## Start dev server
 
 ```shell
