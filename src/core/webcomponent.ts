@@ -1,5 +1,5 @@
 import styles from '@/assets/main.styles.scss'
-import Main from './main'
+import Main from '@/core/main'
 
 class MyComponent extends HTMLElement {
   private templateEl: HTMLTemplateElement
