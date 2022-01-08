@@ -30,6 +30,8 @@ npm run build
 
 ## Use WebComponent
 
+(Path related to the `dist` directory)
+
 ```html
 <body>
   <my-component></my-component>
