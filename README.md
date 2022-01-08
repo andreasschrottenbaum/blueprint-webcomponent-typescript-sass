@@ -1,4 +1,10 @@
-# A lean setup for a WebComponent. Utilizing TypeScript and SASS/SCSS
+# A lean setup for a WebComponent
+
+### Used Technoligies:
+
+- [x] TypeScript
+- [x] SASS/SCSS
+- [x] webpack
 
 ## Start dev server
 
