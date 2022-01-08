@@ -1,5 +1,3 @@
-[_TOC_]
-
 # A lean setup for a WebComponent
 
 ### Used Technoligies:
