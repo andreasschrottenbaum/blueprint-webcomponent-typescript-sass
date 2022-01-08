@@ -18,7 +18,9 @@ class MyComponent extends HTMLElement {
     this.shadow.appendChild(styleEl)
     this.shadow.appendChild(this.templateEl.content.cloneNode(true))
 
-    new Main(this)
+    //TODO: Fix implementation
+    //@ts-ignore
+    new Main(this.shadowRoot)
   }
 }
 
