@@ -1,4 +1,4 @@
-[__TOC__]
+[_TOC_]
 
 # A lean setup for a WebComponent
 
