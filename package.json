@@ -4,7 +4,6 @@
   "description": "Blueprint for WebComponents, based on TypeScript and SASS/SCSS",
   "main": "src/core/webcomponent.ts",
   "scripts": {
-    "test": "jest",
     "build": "webpack",
     "start": "webpack serve"
   },
