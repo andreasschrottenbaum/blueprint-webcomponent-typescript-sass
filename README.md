@@ -1,5 +1,9 @@
 # A lean setup for a WebComponent
 
+### Prerequirements:
+
+- [ ] [Node.js](https://nodejs.org)
+
 ### Used Technoligies:
 
 - [x] TypeScript
@@ -9,7 +13,7 @@
 ## Installation
 
 ```shell
-npm i
+npm install
 ```
 
 ## Start dev server
